@@ -10,11 +10,25 @@
         <meta name="robots" content="index">
         <meta name="theme-color" content="blue">
         <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+
         <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/Style.css">
+
+        <!--font family-->
+        <!--about me signature-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+        <!--Logo first page-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
 
     </head>
     <body>
-    <section>
+    <section class="mainPage">
         <header>
 
             <nav>
@@ -30,26 +44,27 @@
             </nav>
 
             <aside>
-                <h2>Sachindu Kaveeshwara</h2>
+                <h3 class="logo">Sachindu Kaveeshwara</h3>
             </aside>
         </header>
 
-        <div>
-            <h2>HI,I AM SACHINDU,</h2>
+        <div class="wrapper">
+            <h2 class="intro1">HI,I AM SACHINDU,</h2>
+            <h1 class="intro2"><span id="span"></span></h1>
         </div>
 
-        <button>Contact Me</button>
+        <button class="cmb"><a href="#contact">Contact Me</a></button>
 
         <aside>
-            <h5>FOLLOW ME ON :</h5>
-            <div></div>
+            <h5 class="followMe">FOLLOW ME ON :</h5>
+            <div class="followDiv"></div>
 
-            <div>
-                <img src="assets/icons8-facebook-24.png">
-                <img src="assets/icons8-whatsapp-24.png">
-                <img src="assets/icons8-twitter-24.png">
-                <img src="assets/icons8-linkedin-a-business-and-employment-oriented-service-mobile-app-24.png">
-                <img src="assets/icons8-github-24.png">
+            <div class="imgp1">
+                <img src="assets/img/icons8-facebook-24.png">
+                <img src="assets/img/icons8-whatsapp-24.png">
+                <img src="assets/img/icons8-twitter-24.png">
+                <img src="assets/img/icons8-linkedin-a-business-and-employment-oriented-service-mobile-app-24.png">
+                <img src="assets/img/icons8-github-24.png">
 
             </div>
         </aside>
@@ -58,10 +73,10 @@
         <main>
 
             <!--ABOUT ME-->
-            <section>
-                <h1><dfn id="about">ABOUT  ME</dfn></h1>
+            <section id="about" class="aboutMe">
+                <h1>ABOUT  ME</h1>
                 <section>
-                    <img src="assets/my%20image.jpeg" alt="This is my image" width="500">
+                    <img src="assets/img/my%20image.jpeg" alt="This is my image" width="500">
 
 
                 </section>
@@ -81,27 +96,29 @@
                 <button>Download CV</button>
             </section>
 
+
             <!--SERVICE-->
-            <section>
-                <h1><dfn id="service">SERVICE</dfn></h1>
+            <section id="service" class="service">
+                <h1>SERVICE</h1>
                 <section>
                     <h3>WEB DEVELOPMENT</h3>
-                    <img src="assets/web-design.png">
+                    <img src="assets/img/web-design.png">
                 </section>
                 <section>
                     <h3>UI/UX DESIGN</h3>
-                    <img src="assets/ui%20ux%20design.png">
+                    <img src="assets/img/ui%20ux%20design.png">
                 </section>
 
                 <section>
                     <h3>MOBILE APP DEVELOPMENT</h3>
-                    <img src="assets/mobile%20app.png">
+                    <img src="assets/img/mobile%20app.png">
                 </section>
             </section>
 
 
-            <section>
-                <h1><dfn id="skills">SKILLS</dfn></h1>
+            <!--SKILLS-->
+            <section id="skills" class="skills">
+                <h1>SKILLS</h1>
                 <section>
                     <section>
                         <article></article>
@@ -118,14 +135,16 @@
             </section>
 
 
-            <section>
-                <h1><dfn id="education">EDUCATION</dfn></h1>
+            <!--EDUCATION-->
+            <section id="education" class="education">
+                <h1>EDUCATION</h1>
                 <article></article>
             </section>
 
 
-            <section>
-                <h1><dfn id="projects">PROJECTS</dfn></h1>
+            <!--PROJECTS-->
+            <section id="projects" class="projects">
+                <h1>PROJECTS</h1>
                 <section></section>
                 <section>
                     <h1></h1>
@@ -133,8 +152,9 @@
             </section>
 
 
-            <section>
-                <h1><dfn id="contact">CONTACT  ME</dfn></h1>
+            <!--CONTACT ME-->
+            <section id="contact" class="contactMe">
+                <h1><dfn >CONTACT  ME</dfn></h1>
                 <section>
                     <article></article>
                 </section>
