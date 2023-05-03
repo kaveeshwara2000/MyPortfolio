@@ -105,7 +105,7 @@
     /*Customized image position*/
     .image {
       display: flex;
-      margin: 115px 5px 0px 10px;
+      margin: 115px 5px 0px 0px;
     }
 
     /*Customized image*/
@@ -148,6 +148,44 @@
       width: 8px;
       background: #3f3838;
       height: 0px;
+    }
+
+    @media all and (max-width: 400px){
+
+    header{
+      height: 100px;
+      top: 13px;
+
+    }
+      header > img {
+        width: 200px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 10px;
+      }
+      header>nav{
+        top: 36px;
+        right: 35px;
+      }
+
+      body>main>aside{
+        display: none;
+      }
+
+      body>main>section{
+        left: 0;
+        width: 100vw;
+      }
+      .image{
+        flex-direction: column;
+      }
+      body > main > section > section > img {
+        width: 100%;
+      }
+
+
     }
 
   </style>
