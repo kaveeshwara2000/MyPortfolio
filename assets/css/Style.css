@@ -1,3 +1,5 @@
+
+
 .mainPage {
     width: 100vw;
     height: 100vh;
@@ -6,6 +8,20 @@
     background-position: center center;
     background-color: #242424;
     position: relative;
+    top: -10px;
+}
+.logo {
+    position: absolute;
+    left: 131px;
+    margin-top: 12px;
+    font-family: 'Arizonia', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #34AEEB;
 }
 
 .imgp1 {
@@ -15,6 +31,11 @@
     gap: 6px;
     right: 18px;
     bottom: 130px;
+
+}
+.imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5 {
+    width: 24px;
+    height: 24px;
 }
 
 .followMe {
@@ -49,19 +70,94 @@ header {
     height: 70px;
 }
 
-    /*Customized navigatins*/
-    header > nav {
-        right: 20px;
-    }
 
-    /*set list inline*/
-    header > nav > ul {
+header > nav {
+    position: absolute;
+    right: 40px;
+    top: 0;
+}
+
+
+header > nav > ul {
         margin-top: 10px;
     }
 
     /*set list inline*/
-    header > nav > ul > li {
-        padding: 16px;
-        padding-left: 6px;
-        font-size: 12px;
-    }
+header > nav > menu > li {
+    padding-left: 18px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+header>nav>menu>li>a{
+    color: white;
+}
+header>nav>menu>li>a, u{
+    text-decoration: none;
+}
+
+header>nav>menu>li>a:hover{
+    color: #34AEEB;
+    background-color: transparent;
+}
+header>nav>menu>li>a:active{
+    color: red;
+}
+
+.intro1 {
+    font-size: 24px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 351px;
+}
+
+.intro2 {
+    font-size: 64px;
+    color: #34AEEB;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 366px;
+}
+
+.cmb {
+    background: #34AEEB;
+    width: 171px;
+    height: 43px;
+    border-radius: 34px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: -15px;
+    right: 0;
+    top: 450px;
+    bottom: 0;
+    margin: auto;
+    border: none;
+}
+
+.cmb > a {
+    color: white;
+}
+
+.cmb > a, u {
+    text-decoration: none;
+}
+.cmb:hover{
+    transform: translateY(5px);
+
+}
+.cmb:active{
+    background-color: red;
+}
