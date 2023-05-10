@@ -161,3 +161,13 @@ header>nav>menu>li>a:active{
 .cmb:active{
     background-color: red;
 }
+
+.T1, .T2, .T3, .T4, .T5, .T6 {
+    font-size: 58px;
+    top: 1px;
+}
+.TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
+    font-size: 37px;
+    top: -62px;
+
+}

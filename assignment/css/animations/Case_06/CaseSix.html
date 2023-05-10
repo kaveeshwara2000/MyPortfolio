@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta content="width=device-width initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+    <title>Case Six</title>
+  <style>
+    body {
+      margin: auto;
+      overflow: hidden;
+    }
+
+
+    main > div:first-child {
+      position: relative;
+      width: 100vw;
+      height: 70vh;
+      background: url("../assets/sky.jpg");
+      background-size: cover;
+      margin: auto;
+    }
+
+
+    main > section:nth-child(2) {
+      width: max-content;
+      position: absolute;
+      top: 195px;
+      animation-name: animationCity;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+
+
+    main > section:nth-child(2) > div {
+      display: flex;
+      width: max-content;
+      height: max-content;
+    }
+
+
+    main > section:nth-child(2) > div:nth-child(1) {
+      height: 38vh;
+    }
+
+
+    main > section:nth-child(2) > div:nth-child(2) {
+      height: 257px;
+    }
+
+
+    main > div:nth-child(3) > img {
+      position: absolute;
+      width: 322px;
+      height: 142px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 37vh;
+      margin: auto;
+    }
+
+
+    main > div:nth-child(4) {
+      position: absolute;
+      width: max-content;
+      top: 54vh;
+      bottom: 0;
+      left: 122px;
+      right: 0;
+      margin: auto;
+
+    }
+
+
+    main > div:nth-child(4) > img {
+      width: 59px;
+      height: 63px;
+      margin-top: 99px;
+      margin-right: 134px;
+      animation-name: animationWheel;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+      animation-direction: alternate;
+    }
+
+
+    @keyframes animationCity {
+      from {
+        margin-left: 0;
+      }
+      to {
+        margin-left: -300vw;
+      }
+    }
+
+
+    @keyframes animationWheel {
+      0% {
+        transform: rotate(0deg);
+
+      }
+
+      50% {
+        transform: rotate(-270deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <div></div>
+
+  <section>
+
+    <div>
+      <img src="../assets/city.png">
+      <img src="../assets/city.png">
+      <img src="../assets/city.png">
+      <img src="../assets/city.png">
+    </div>
+
+
+    <div>
+      <img src="../assets/road.jpg">
+      <img src="../assets/road.jpg">
+    </div>
+  </section>
+
+
+  <div>
+    <img src="../assets/car.png">
+  </div>
+
+
+  <div>
+    <img src="../assets/wheel.png">
+    <img src="../assets/wheel.png">
+  </div>
+
+</main>
+</body>
+</html>
