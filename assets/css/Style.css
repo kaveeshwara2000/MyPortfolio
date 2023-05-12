@@ -135,9 +135,10 @@ header {
 
 
 header > nav {
-    position: absolute;
+    position: fixed;
     right: 40px;
     top: 0;
+    z-index: 10;
 }
 
 
