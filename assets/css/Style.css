@@ -64,14 +64,14 @@
 
 
 .mainPage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-image: url("../img/white-notebook-black-data-firewall.jpg");
     background-position: center center;
     background-color: #242424;
     position: relative;
-    top: -10px;
+    top: 0;
 }
 .logo {
     position: absolute;
@@ -659,6 +659,113 @@ header>nav>menu>li>a:active{
     width: 60px;
     height: 60px;
 }
+.lineBreak{
+    position: absolute;
+    width: 532px;
+    height: 0;
+    left: 585px;
+    top: 410px;
+    border: 3px solid #242424;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    transform: rotate(-90deg);
+}
+.d1 {
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    right: 382px;
+    top: 215px;
+    background: #242424;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.d1:hover {
+    transform: translateY(-10px);
+    transition: all .5s !important;
+}
+.d2 {
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    right: 89px;
+    top: 215px;
+    background: #242424;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.d2:hover {
+    transform: translateY(-10px);
+    transition: all .5s !important;
+}
+.d3 {
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    right: 382px;
+    top: 435px;
+    background: #242424;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.d3:hover {
+    transform: translateY(-10px);
+    transition: all .5s !important;
+}
+.n1, .n2, .n3 {
+    position: absolute;
+    width: 51px;
+    height: 50px;
+    left: 28px;
+    top: -4px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #34AEEB;
+}
+.plus1, .plus2, .plus3 {
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    left: 73px;
+    top: -14px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #34AEEB;
+}
+.completePro, .yearEx, .happyCus {
+    position: absolute;
+    width: 104px;
+    height: 28px;
+    left: 70px;
+    top: 83px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.line1, .line2, .line3 {
+    position: absolute;
+    width: 35px;
+    height: 0px;
+    left: 25px;
+    top: 97px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+}
+
+
+
+
 
 
 
