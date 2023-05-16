@@ -1029,7 +1029,166 @@ header>nav>menu>li>a:active{
 }
 
 
+/*contact me*/
+.contactD1 {
+    position: absolute;
+    text-align: center;
+    left: 95px;
+    top: 177px;
+    width: 348px;
+}
+.contactD2 {
+    position: relative;
+    margin-left: -42px;
+    margin-top: -135px;
+}
+.contactP1 {
+    font-size: 22px;
+    color: #34AEEB;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.contactP2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    margin: auto;
+    top: 32px;
+    left: 0;
+    right: 0;
+}
+.email1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 340px;
+    left: 229px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.address1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 440px;
+    left: 229px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.contact1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 540px;
+    left: 229px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.imgC1 {
+    position: absolute;
+    top: 346px;
+    left: 170px;
+    width: 24px;
+    height: 24px;
+}
+.imgC2 {
+    position: absolute;
+    top: 446px;
+    left: 170px;
+    width: 24px;
+    height: 24px;
+}
+.imgC3 {
+    position: absolute;
+    top: 546px;
+    left: 170px;
+    width: 24px;
+    height: 24px;
+}
+.send {
+    position: absolute;
+    background: #34AEEB;
+    width: 211px;
+    height: 43px;
+    border-radius: 34px;
+    font-weight: 700;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    left: 576px;
+    bottom: 32px;
+    margin: auto;
+    border: none;
+}
+.input1, .input2, .input3, .input4 {
+    position: absolute;
+    background: rgba(217, 217, 217, 0.21);
+    border-radius: 34px;
+    border: 2px solid rgba(217, 217, 217, 0.21);
 
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.input1 {
+    width: 354px;
+    height: 34px;
+    padding: 10px 25px 10px 25px;
+    left: 527px;
+    top: 230px;
+}
+.input2 {
+    width: 354px;
+    height: 34px;
+    left: 958px;
+    top: 230px;
+    padding: 10px 25px 10px 25px;
+}
+.input3 {
+    width: 594px;
+    height: 34px;
+    left: 527px;
+    top: 313px;
+    padding: 10px 25px 10px 25px;
+}
+.input4 {
+    width: 594px;
+    height: 223px;
+    left: 527px;
+    top: 398px;
+    padding: 25px 25px 10px 25px;
+}
+.adjustForm {
+    left: 42px;
+    top: -49px;
+    position: absolute;
+}
+
+
+
+/*footer*/
 footer {
     position: absolute;
     height: 100px;
