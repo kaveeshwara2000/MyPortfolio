@@ -1,0 +1,221 @@
+body{
+    background: #242424;
+}
+.title {
+    position: relative;
+    font-size: 64px;
+    font-family: normal;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    padding-top: 48px;
+    padding-bottom: 12px;
+    color: #34AEEB;
+}
+.discrip {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(136 136 136) !important;
+    text-align: center;
+    padding-top: 26px;
+    margin: 0;
+}
+/*Assignments*/
+.asign1 {
+    background-image: url("./img/CSS.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 5%;
+    width: 366px;
+    height: 247px;
+    left: 115px;
+    top: 152px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.asign2 {
+    background-image: url("./img/css-animation-5.gif");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 5%;
+    width: 366px;
+    height: 247px;
+    left: 573px;
+    right: 0;
+    top: 152px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.asign3 {
+    background-image: url("./img/transition.gif");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 5%;
+    width: 366px;
+    height: 247px;
+    right: 115px;
+    top: 152px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.asign4 {
+    background-image: url("./img/Framework.gif");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 5%;
+    width: 366px;
+    height: 247px;
+    left: 573px;
+    top: 447px;
+    filter: drop-shadow(0px 4px 12px rgb(14, 14, 14));
+    cursor: pointer;
+}
+
+.asignBasic {
+    position: absolute;
+    font-size: 20px;
+    left: 232px;
+    top: 342px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+}
+
+.asignAnim {
+    position: absolute;
+    font-size: 20px;
+    left: 690px;
+    top: 342px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+}
+
+.asignTransi {
+    position: absolute;
+    font-size: 20px;
+    left: 1170px;
+    top: 342px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+}
+
+.asignFram {
+    position: absolute;
+    font-size: 20px;
+    left: 694px;
+    top: 641px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+}
+
+.asign1:hover{
+    transition: all 0.5s ease;
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+    box-shadow: 1px 1px 54px 1px rgba(2, 2, 2, 0.82);
+    cursor: pointer;
+}
+
+.asign2:hover{
+    transition: all 0.8s ease;
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+    box-shadow: 1px 1px 54px 1px rgba(2, 2, 2, 0.82);
+    cursor: pointer;
+}
+
+.asign3:hover{
+    transition: all 0.8s ease;
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+    box-shadow: 1px 1px 54px 1px rgba(2, 2, 2, 0.82);
+    cursor: pointer;
+}
+
+.asign4:hover{
+    transition: all 0.8s ease;
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+    box-shadow: 1px 1px 54px 1px rgba(2, 2, 2, 0.82);
+    cursor: pointer;
+}
+
+#Basics {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+#Basics > section:nth-child(2) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 70px;
+    margin-right: 69px;
+    transition: all 2s;
+}
+
+#Basics > section:nth-child(2) > section {
+    width: 1095px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: all 2s;
+}
+.cases {
+    position: relative;
+    width: 320px;
+    height: 305px;
+    background: #242424;
+    box-shadow: -23px -23px 45px #151515, 28px 28px 50px rgb(17, 17, 17);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.cases > h4 {
+    position: absolute;
+    top: 194px;
+    left: 0;
+    right: 0;
+    font-family: 'ubuntu';
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cases:hover {
+    transition: all 0.8s ease;
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+    box-shadow: 1px 1px 54px 1px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+.cases > img {
+    width: 281px;
+    height: 157px;
+    margin-top: 13px;
+    padding: 9px;
+    border-radius: 30px;
+    align-items: center;
+}

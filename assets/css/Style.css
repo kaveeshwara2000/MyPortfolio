@@ -381,12 +381,12 @@ header>nav>menu>li>a:active{
     top: 286px;
     left: 294px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
-    transition: all .5s;
+    transition: all 3s;
 }
 .webDevelopment:hover {
     z-index: 10;
-    transition: all .5s !important;
-    transform: translateY(-10px);
+    transition: all 1s !important;
+    transform: translateY(-30px);
 }
 .style1{
     position: absolute;
@@ -427,12 +427,12 @@ header>nav>menu>li>a:active{
     top: 286px;
     right: 294px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
-    transition: all .5s;
+    transition: all 3s;
 }
 .UIUX:hover {
     z-index: 10;
-    transition: all .5s !important;
-    transform: translateY(-10px);
+    transition: all 1s !important;
+    transform: translateY(-30px);
 }
 .style2{
     position: absolute;
@@ -467,11 +467,12 @@ header>nav>menu>li>a:active{
     left: 0;
     right: 0;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    transition: all 3s;
 }
 .mobileApp:hover {
     z-index: 10;
-    transition: all .5s !important;
-    transform: translateY(-10px);
+    transition: all 1s !important;
+    transform: translateY(-30px);
 }
 .style3{
     position: absolute;
@@ -981,6 +982,7 @@ header>nav>menu>li>a:active{
     border-radius: 25px;
     display: flex;
     justify-content: center;
+
 }
 .cases > h4 {
     position: absolute;
@@ -1138,6 +1140,14 @@ header>nav>menu>li>a:active{
     bottom: 32px;
     margin: auto;
     border: none;
+
+}
+
+.send:hover{
+    transform: translateY(5px);
+}
+.send:active{
+    background-color: red;
 }
 .input1, .input2, .input3, .input4 {
     position: absolute;
