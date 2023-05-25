@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Items Form</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!--import css-->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<header>
+
+    <!--nav logo-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid shadow p-3 mb-3 bg-body rounded">
+            <img src="../assets/image/shopping-cart.png" width="70" height="70">
+            <a class="navbar-brand" href="#">Fresh Food Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--links-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="manageCustomer.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="manageCustomer.html">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./manageItems.html">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="placeOrder.html">Place Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="allOrderDetails.html">All Order details</a>
+                    </li>
+                </ul>
+
+                <!--login logout-->
+                <ul class="navbar-nav me-6 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"></i>
+                            Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"></i>
+                            Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+<main class="container-fluid" id="Itemform">
+    <h1>~MANAGE ITEMS~</h1>
+    <br>
+
+    <section class="row">
+        <div class=" d-flex flex-md-column flex-sm-row">
+            <form class="d-flex flex-column flex-sm-row" role="search">
+                <input id="txtInputItem" class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <label for="txtInputItem" class="form-label bg-info" style="padding: 8px; padding-right: 8px; border-radius: 5px">Search</label>
+            </form>
+        </div>
+    </section>
+
+    <br>
+
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="txtItemCode" class="form-label">Item Code :</label>
+            <input type="text" class="form-control" id="txtItemCode" placeholder="Ex: I00-001">
+        </div>
+        <div class="col-md-6">
+            <label for="txtItemName" class="form-label">Item Name :</label>
+            <input type="text" class="form-control" id="txtItemName" placeholder="Ex: Sugar">
+        </div>
+        <div class="col-md-6">
+            <label for="txtQTY" class="form-label">Quntity :</label>
+            <input type="text" class="form-control" id="txtQTY" placeholder="Ex: 50Kg">
+        </div>
+        <div class="col-md-6">
+            <label for="txtUnitPrice" class="form-label">Unit Price :</label>
+            <input type="text" class="form-control" id="txtUnitPrice" placeholder="Ex: RS. 10 000">
+        </div>
+    </form>
+
+    <br>
+
+    <section class="row">
+        <div class="container-fluid justify-content-center gap-4 d-flex flex-xxl-row">
+            <!-- Button trigger modal -->
+            <button id="btnSaveItem" type="button" class="btn btn-success " >Save
+                Item
+            </button>
+
+            <!-- Button trigger modal -->
+            <button id="btnUpdateItem" type="button" class="btn btn-warning" >Update
+                Item
+            </button>
+
+            <!-- Button trigger modal -->
+            <button id="btnDeleteIItem" type="button" class="btn btn-danger" >Delete
+                Item
+            </button>
+        </div>
+    </section>
+
+    <br><br>
+
+    <section class="container-fluid">
+        <table  class="table table-striped">
+            <thead class="table-dark">
+            <tr>
+                <th scope="col">Item Code</th>
+                <th scope="col">Item Name</th>
+                <th scope="col">Quntity</th>
+                <th scope="col">Unit Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>T001</th>
+                <td>Rice</td>
+                <td>100kg</td>
+                <td>RS. 210</td>
+            </tr>
+            <tr>
+                <th>T002</th>
+                <td>Sugar</td>
+                <td>100kg</td>
+                <td>RS. 340</td>
+            </tr>
+            <tr>
+                <th>T003</th>
+                <td>Noodles</td>
+                <td>50 pack</td>
+                <td>RS. 170</td>
+            </tr>
+            <tr>
+                <th>T004</th>
+                <td>Manchee Biscuites</td>
+                <td>50 pack</td>
+                <td>RS. 300</td>
+            </tr>
+            <tr>
+                <th>T005</th>
+                <td>Soap</td>
+                <td>100 pack</td>
+                <td>RS. 270</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<!--import js-->
+<script src="../assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

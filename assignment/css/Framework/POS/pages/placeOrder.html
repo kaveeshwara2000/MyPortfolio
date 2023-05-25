@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Place Order Form</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!--import css-->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<header>
+
+    <!--nav logo-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid shadow p-3 mb-2 bg-body rounded">
+            <img src="../assets/image/shopping-cart.png" width="70" height="70">
+            <a class="navbar-brand" href="#">Fresh Food Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--links-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="manageCustomer.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manageCustomer.html">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manageItems.html">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placeOrder.html">Place Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="allOrderDetails.html">All Order details</a>
+                    </li>
+                </ul>
+
+                <!--login logout-->
+                <ul class="navbar-nav me-6 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"></i>
+                            Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"></i>
+                            Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+<main class="container-fluid">
+    <h1>~PLACE ORDER~</h1>
+
+    <section class="row justify-content-center">
+        <div class="row justify-content-evenly ">
+
+            <!--invoice section-->
+            <div class="col-10 col-md-9 col-lg-3 p-3 mt-1 bg-white shadow-lg " style="height: max-content">
+                <h3 class="text-center bg-success p-2 text-light ">Invoice</h3>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="orderId" class="form-label">Order ID:</label>
+                        <input class="form-control" id="orderId" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="orderDate" class="form-label">Order Date:</label>
+                        <input class="form-control" id="orderDate" type="date">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="customerId" class="form-label">Customer ID:</label>
+                        <select aria-label="Default select example" class="form-select" id="customerId">
+                            <option selected>Select Customer</option>
+                            <option value="1">C001</option>
+                            <option value="2">C002</option>
+                            <option value="3">C003</option>
+                            <option value="4">C004</option>
+                            <option value="5">C005</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="customerName" class="form-label">Name:</label>
+                        <input class="form-control" disabled id="customerName" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="customerAddress" class="form-label">Address:</label>
+                        <input class="form-control" disabled id="customerAddress" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="customerSalary" class="form-label">Salary:</label>
+                        <input class="form-control" disabled id="customerSalary" type="text">
+                    </div>
+                </div>
+            </div>
+
+            <!--items-->
+            <div class="col-10 col-md-5 col-lg-3 p-3 mt-1 bg-white shadow-lg " style="height: max-content">
+                <h3 class="text-center bg-success p-2 text-light">Items</h3>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="itemCode" class="form-label">Item Code:</label>
+                        <select aria-label="Default select example" class="form-select" id="itemCode">
+                            <option selected>Select Item</option>
+                            <option value="1">I001</option>
+                            <option value="2">I002</option>
+                            <option value="3">I003</option>
+                            <option value="4">I004</option>
+                            <option value="5">I005</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="itemName" class="form-label">Item Name:</label>
+                        <input class="form-control" disabled id="itemName" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="itemPrice" class="form-label">Unit Price:</label>
+                        <input class="form-control" disabled id="itemPrice" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="qtyOnHand" class="form-label">Qty On Hand:</label>
+                        <input class="form-control" disabled id="qtyOnHand" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="buyQty" class="form-label">Order Quntity:</label>
+                        <input class="form-control small" id="buyQty" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6"><br>
+                        <button class="btn btn-warning rounded-5" type="submit">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--total price-->
+            <div class="col-10 col-md-10 col-lg-3 p-3 mt-3 bg-white shadow-lg" style="height: max-content">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <h3 class="text-start p-1">Total: <span class="text-center text-danger p-1"> Rs. 1500/= </span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="cash" class="form-label">Cash (Rs.):</label>
+                        <input class="form-control" id="cash" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label for="discount" class="form-label">Discount:</label>
+                        <input class="form-control" id="discount" type="number" role="spinbutton">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="balance" class="form-label">Balance (Rs.):</label>
+                        <input class="form-control" disabled id="balance" type="text">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <button class="btn btn-danger rounded-5" type="submit">Place Order</button>
+                </div>
+            </div>
+
+            <!-- add to cart table-->
+            <section class="container-fluid mt-5">
+                <table class="table table-striped">
+                    <thead class="table-success">
+                    <tr>
+                        <th scope="col">Item Code</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">qty On Hand</th>
+                        <th scope="col">Unit Price</th>
+                        <th scope="col">Quntity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>T001</th>
+                        <td>Rice</td>
+                        <td>100kg</td>
+                        <td>RS. 210</td>
+                        <td>10kg</td>
+                    </tr>
+                    <tr>
+                        <th>T002</th>
+                        <td>Sugar</td>
+                        <td>100kg</td>
+                        <td>RS. 340</td>
+                        <td>2kg</td>
+                    </tr>
+                    <tr>
+                        <th>T004</th>
+                        <td>Manchee Biscuites</td>
+                        <td>50 pack</td>
+                        <td>RS. 300</td>
+                        <td>2 pack</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </section>
+</main>
+
+
+<!--import js-->
+<script src="../assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
