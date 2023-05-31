@@ -347,7 +347,6 @@ header>nav>menu>li>a:active{
     background-color: red;
 }
 .dDiv {
-    border: solid red;
     height: 20px;
     width: 23px;
     position: absolute;
