@@ -970,6 +970,70 @@ header>nav>menu>li>a:active{
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
     transform: rotate(-90deg);
 }
+.slider{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    box-shadow: 1px 1px 6px 3px black;
+    right: 100px;
+    top: 200px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider > section{
+    height: 100%;
+    width: 400%;
+    display: flex;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.slider > section > div{
+    height: 100%;
+    width: 100%;
+}
+.slider > section > div:nth-child(1) {
+    background: url("/assets/img/certificate_1.png"), center;
+    background-size: cover;
+}
+
+.slider section > div:nth-child(2) {
+    background: url("/assets/img/certificate_2.png"), center;
+    background-size: cover;
+}
+
+.slider > section > div:nth-child(3) {
+    background: url("/assets/img/certificate_3.PNG"), center;
+    background-size: cover;
+}
+
+.slider > section > div:nth-child(4) {
+    background: url("/assets/img/certificate_1.png"), center;
+    background-size: cover;
+}
+@keyframes slider {
+    0%, 15% {
+        transform: translateX(0);
+
+    }
+    25%, 40% {
+        transform: translateX(-25%);
+
+    }
+    50%, 70% {
+        transform: translateX(-50%);
+
+    }
+    80%, 100% {
+        transform: translateX(-75%);
+
+    }
+}
+
+
+
 
 /*Projects*/
 .cases {
