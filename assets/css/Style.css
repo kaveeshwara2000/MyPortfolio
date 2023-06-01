@@ -994,6 +994,10 @@ header>nav>menu>li>a:active{
     height: 100%;
     width: 100%;
 }
+.slider > section > div > img{
+    height: 100%;
+    width: 100%;
+}
 .slider > section > div:nth-child(1) {
     background: url("/assets/img/certificate_1.png"), center;
     background-size: cover;
