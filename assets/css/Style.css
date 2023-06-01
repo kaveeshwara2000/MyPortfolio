@@ -993,30 +993,13 @@ header>nav>menu>li>a:active{
 .slider > section > div{
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 .slider > section > div > img{
     height: 100%;
     width: 100%;
 }
-.slider > section > div:nth-child(1) {
-    background: url("/assets/img/certificate_1.png"), center;
-    background-size: cover;
-}
 
-.slider section > div:nth-child(2) {
-    background: url("/assets/img/certificate_2.png"), center;
-    background-size: cover;
-}
-
-.slider > section > div:nth-child(3) {
-    background: url("/assets/img/certificate_3.PNG"), center;
-    background-size: cover;
-}
-
-.slider > section > div:nth-child(4) {
-    background: url("/assets/img/certificate_1.png"), center;
-    background-size: cover;
-}
 @keyframes slider {
     0%, 15% {
         transform: translateX(0);
