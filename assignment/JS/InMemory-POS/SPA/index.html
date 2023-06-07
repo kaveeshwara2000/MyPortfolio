@@ -516,16 +516,21 @@
         $('#AllOrderform').css('display', 'block');
     });
 
-</script>
 
-<script src="db/db.js"></script>
-<script src="controller/CustomerController.js"></script>
-<script src="controller/ItemController.js"></script>
-<script src="controller/OrderController.js"></script>
-<script src="model/CustomerDTO.js"></script>
-<script src="model/ItemDTO.js"></script>
-<script src="model/CartDTO.js"></script>
-<script src="model/OrderDTO.js"></script>
+    /*In class assignment*/
+    let customerID = $("#txtCustomerID").val();
+    let customerName = $("#txtCustomerName").val();
+    let customerAddress = $("#txtCustomerAddress").val();
+    let customerSalary = $("#txtCustomerSalary").val();
+
+    $("#btnSaveCustomer").click(function () {
+
+        let row = `<tr><td>${customerID}</td><td>${customerName}</td><td>${customerAddress}</td><td>${customerSalary}</td></tr>`;
+        $("#tblCustomer").append(row);
+
+    });
+
+</script>
 
 
 </body>
