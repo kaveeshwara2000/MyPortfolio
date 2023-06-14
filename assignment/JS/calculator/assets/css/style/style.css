@@ -1,0 +1,59 @@
+
+
+body{
+    background-color: #4C91AB;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*display area*/
+#typearea{
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 44px;
+    margin-bottom: 18px;
+    border-radius: 17px;
+}
+
+/*all buttons*/
+input[type=button]{
+    width: 84px;
+    height: 78px;
+    padding: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -12px;
+    border-radius: 19%;
+    background-color: #ACACAC;
+    border: none;
+}
+
+/*cal background*/
+body > div:first-child{
+    height: auto;
+    width: 400px;
+    padding: 24px;
+    margin: auto;
+    border-radius: 10%;
+}
+
+/*equal button*/
+#equal{
+    background-color: #0708a4;
+    color: white;
+}
+
+/*clear button*/
+#AC{
+    width: 100%;
+    height: 44px;
+    padding: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 17px;
+    background-color: #8a0505;
+    color: white;
+
+}
