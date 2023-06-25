@@ -519,44 +519,51 @@
     });
 
 
-    /*In class assignment*/
-    var customerDB = [];
-
-    $("#btnSaveCustomer").click(function () {
-
-        let customerID = $("#txtCustomerID").val();
-        let customerName = $("#txtCustomerName").val();
-        let customerAddress = $("#txtCustomerAddress").val();
-        let customerSalary = $("#txtCustomerSalary").val();
-        let customer = [customerID,customerName,customerAddress,customerSalary];
-        customerDB.push(customer);
-
-
-
-    });
-
-    $("#btnGetAllCustomer").click(function (){
-
-        $("#tblCustomer").empty();
-
-       for (let i=0;i<customerDB.length;i++) {
-           let id = customerDB[i][0];
-           let name = customerDB[i][1];
-           let address = customerDB[i][2];
-           let salary = customerDB[i][3];
-
-           let row =` <tr>
-               <td>${id}</td>
-               <td>${name}</td>
-               <td>${address}</td>
-               <td>${salary}</td>
-           </tr>`;
-           $("#tblCustomer").append(row);
-       }
-    });
+    // /*In class assignment*/
+    // var customerDB = [];
+    //
+    // $("#btnSaveCustomer").click(function () {
+    //
+    //     let customerID = $("#txtCustomerID").val();
+    //     let customerName = $("#txtCustomerName").val();
+    //     let customerAddress = $("#txtCustomerAddress").val();
+    //     let customerSalary = $("#txtCustomerSalary").val();
+    //     let customer = [customerID,customerName,customerAddress,customerSalary];
+    //     customerDB.push(customer);
+    //
+    //
+    //
+    // });
+    //
+    // $("#btnGetAllCustomer").click(function (){
+    //
+    //     $("#tblCustomer").empty();
+    //
+    //    for (let i=0;i<customerDB.length;i++) {
+    //        let id = customerDB[i][0];
+    //        let name = customerDB[i][1];
+    //        let address = customerDB[i][2];
+    //        let salary = customerDB[i][3];
+    //
+    //        let row =` <tr>
+    //            <td>${id}</td>
+    //            <td>${name}</td>
+    //            <td>${address}</td>
+    //            <td>${salary}</td>
+    //        </tr>`;
+    //        $("#tblCustomer").append(row);
+    //    }
+    // });
 
 </script>
-
+<script src="db/db.js"></script>
+<script src="controller/CustomerController.js"></script>
+<script src="controller/ItemController.js"></script>
+<script src="controller/OrderController.js"></script>
+<script src="model/CustomerDTO.js"></script>
+<script src="model/ItemDTO.js"></script>
+<script src="model/CartDTO.js"></script>
+<script src="model/OrderDTO.js"></script>
 
 </body>
 </html>
