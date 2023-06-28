@@ -1271,3 +1271,685 @@ footer {
     display: flex;
     text-align: center;
 }
+
+
+
+
+
+
+/* 1025 - 1440 */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+
+    /*Customized headding*/
+    header {
+        height: 70px;
+    }
+
+    /*set list inline*/
+    header > nav > ul {
+        margin-top: 10px;
+    }
+
+    /*set list inline*/
+    header > nav > ul > li {
+        padding: 16px;
+        padding-left: 6px;
+    }
+
+    /*name logo*/
+    .logo {
+        margin-top: 6px;
+    }
+
+    /*//////////////////////////////////////////////////////////*/
+    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .T1, .T2, .T3, .T4, .T5, .T6, .T7 {
+        line-height: 68px;
+        top: 17px;
+
+    }
+
+    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6, .TT7 {
+        top: -44px;
+    }
+
+    /*////////////////////////////////////////////////////////////////////////////////////////*/
+    /*first page*/
+    .mainpage {
+        width: 100%;
+        height: 100vh;
+    }
+
+    /*hii, I am....*/
+    .intro1 {
+        margin-top: -34px;
+    }
+
+    /*Follow me on*/
+    .followMe {
+        font-size: 14px;
+        margin-right: 14px;
+        margin-top: -30px;
+    }
+
+    /*line*/
+    .follDiv {
+        margin-right: 7px;
+        margin-bottom: -72px;
+        width: 68px;
+    }
+
+    /*Button Hire me*/
+    .hireme {
+        width: 146px;
+        margin: auto;
+        margin-top: -30px;
+
+    }
+
+    .hireme:hover {
+        height: 43px;
+        transform: translateY(3px);
+    }
+
+    /*image*/
+    .imgp1 {
+        margin-bottom: -28px;
+        margin-right: 1px;
+    }
+
+    /*social media image*/
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*//////////////////////////////////////////////////////////*/
+    /*
+    ABOUT ME
+    */
+    /*Hello*/
+    .hello {
+        top: 108px;
+    }
+
+    /*I AM.....*/
+    .name {
+        right: 395px;
+        top: 145px;
+    }
+
+    /*About me Paragraph*/
+    .AboutP {
+        top: 185px;
+    }
+
+    /*About me Signature*/
+    .Signature {
+        top: 245px;
+    }
+
+    /*Button downlod CV*/
+    .dwnlod {
+        height: 40px;
+        right: -178px;
+        bottom: -511px;
+    }
+
+    /*about list*/
+    .list1 {
+        bottom: 55px;
+    }
+
+    /*details list*/
+    .list2 {
+        bottom: 55px;
+    }
+
+    /*my image*/
+    .imgmy {
+        width: 296px;
+        height: 414px;
+        left: 9px;
+        top: 9px;
+
+    }
+
+    /*image frame*/
+    .myIMGFrame {
+        left: 164px;
+        top: 110px;
+        width: 313px;
+        height: 430px;
+    }
+
+    /*=======================================================================================================*/
+    /*SERVICE SECTION*/
+    /*=======================================================================================================*/
+    /*web design box*/
+    .webDesign {
+        left: 83px;
+        top: 82px;
+    }
+
+    /*Customization box*/
+    .customiz {
+        right: 83px;
+        top: 82px;
+    }
+
+    /*WebDevelopment box*/
+    .webDevelopment {
+        top: 216px;
+        left: 247px;
+    }
+
+    /*UI/UX Deesign box*/
+    .UIUX {
+        top: 216px;
+        right: 247px;
+    }
+
+    /*Mobile App Development box*/
+    .mobileApp {
+        top: 370px;
+    }
+
+
+    /*=======================================================================================================*/
+    /*SKILLS SECTION*/
+    /*=======================================================================================================*/
+    /*TiTle for Languages*/
+    .Lang {
+        top: 116px;
+    }
+
+    /*TiTle for tools*/
+    .tools {
+        top: 398px;
+    }
+
+    /*div for adjust image line 1*/
+    .langdiv1 {
+        top: -49px;
+    }
+
+    /*div for adjust image line 2*/
+    .langdiv2 {
+        top: -197px;
+    }
+
+    /*div for adjust image line 3*/
+    .tooldiv {
+        top: 334px;
+    }
+
+    /*line break*/
+    .linebreak {
+        width: 412.01px;
+        left: 573px;
+        top: 334px;
+    }
+
+    /*side div 1*/
+    .d1 {
+        top: 153px;
+    }
+
+    /*side div 2*/
+    .d2 {
+        top: 153px;
+    }
+
+    /*side div 3*/
+    .d3 {
+        top: 375px;
+    }
+
+    /*title line(Language and framework)*/
+    .titleLine1 {
+        top: 150px;
+    }
+
+    /*title line(tools)*/
+    .titleLine2 {
+        top: 429px;
+    }
+
+    /*=======================================================================================================*/
+    /*EDUCATION SECTION*/
+    /*=======================================================================================================*/
+    .edutree {
+        width: 427px;
+        left: 505px;
+        top: 346px;
+    }
+
+    /*section1 (Digree)*/
+    .EE1 {
+        right: 234px;
+        top: 124px;
+    }
+
+    /*section2 (IT dip)*/
+    .EE2 {
+        left: 234px;
+        top: 216.5px;
+    }
+
+    /*section3 (Eng dip)*/
+    .EE3 {
+        right: 234px;
+        top: 307px;
+    }
+
+    /*section4 (A/L)*/
+    .EE4 {
+        left: 234px;
+        top: 398.5px;
+    }
+
+    /*section5 (O/L)*/
+    .EE5 {
+        right: 234px;
+        top: 488px;
+    }
+
+    /*circle1*/
+    .cir1 {
+        right: 683px;
+        top: 165px;
+    }
+
+    /*circle2*/
+    .cir2 {
+        left: 683px;
+        top: 256.5px;
+    }
+
+    /*circle3*/
+    .cir3 {
+        right: 683px;
+        top: 345px;
+    }
+
+    /*circle4*/
+    .cir4 {
+        left: 683px;
+        top: 440.5px;
+    }
+
+    /*circle5*/
+    .cir5 {
+        right: 683px;
+        top: 528px;
+    }
+
+    /*=======================================================================================================*/
+    /*PROJECTS SECTION*/
+    /*=======================================================================================================*/
+    /*Image Jewellery shop management*/
+    .imgPro1 {
+        left: 97px;
+        top: 96px;
+        width: 376px;
+        height: 239px;
+    }
+
+    /*Image Hotel management*/
+    .imgPro2 {
+        left: 528px;
+        top: 96px;
+        width: 376px;
+        height: 239px;
+    }
+
+    /*Image Hostel management*/
+    .imgPro3 {
+        right: 97px;
+        top: 96px;
+        width: 376px;
+        height: 239px;
+    }
+
+    /*Image SuperMarket management*/
+    .imgPro4 {
+        left: 315px;
+        top: 337px;
+        width: 376px;
+        height: 239px;
+    }
+
+    /*Image CarParking management*/
+    .imgPro5 {
+        right: 315px;
+        top: 337px;
+        width: 376px;
+        height: 239px;
+    }
+
+    .pt1 {
+        top: 275px;
+        left: 110px;
+    }
+
+    .pt2 {
+        top: 275px;
+        right: 154px;
+    }
+
+    .pt3 {
+        top: 275px;
+        left: 590px;
+    }
+
+    .pt4 {
+        top: 518px;
+        left: 337px;
+    }
+
+    .pt5 {
+        top: 518px;
+        right: 387px;
+    }
+
+    /*=======================================================================================================*/
+    /*Assignment SECTION*/
+    /*=======================================================================================================*/
+    .asign1 {
+        width: 313px;
+        height: 210px;
+        left: 112px;
+        top: 101px;
+    }
+
+    .asign2 {
+        width: 313px;
+        height: 210px;
+        left: 563px;
+        top: 101px;
+    }
+
+    .asign3 {
+        width: 313px;
+        height: 210px;
+        right: 112px;
+        top: 101px;
+    }
+
+    .asign4 {
+        width: 313px;
+        height: 210px;
+        left: 563px;
+        top: 346px;
+    }
+
+    .asignBasic {
+        left: 214px;
+        top: 262px;
+    }
+
+    .asignAnim {
+        left: 643px;
+        top: 262px;
+    }
+
+    .asignTransi {
+        left: 1088px;
+        top: 262px;
+    }
+
+    .asignFram {
+        left: 638px;
+        top: 505px;
+    }
+
+    /*=======================================================================================================*/
+    /*GITHUB LINK*/
+    /*Github link box paragraph*/
+    .githubP {
+        top: 7px;
+    }
+
+    /*Button Github*/
+    .github {
+        height: 37px;
+        bottom: -60px;
+    }
+
+    /*=======================================================================================================*/
+    /*CONTACT ME SECTION*/
+    /*=======================================================================================================*/
+    /*adjust paragraph*/
+    .contactD1 {
+        left: 74px;
+        top: 114px;
+    }
+
+    .contactD2 {
+        position: relative;
+        margin-left: -42px;
+        margin-top: -214px;
+    }
+
+    .sec1 {
+        left: 74px;
+        top: 114px;
+    }
+
+    /*Button send Massages*/
+    .send {
+        margin-bottom: -14px;
+        margin-left: -53px;
+    }
+
+    /*Massage*/
+    .input4 {
+        height: 193px;
+    }
+
+    /*adjust form*/
+    .adjustForm {
+        margin-top: -74px;
+        margin-left: -53px;
+    }
+
+    /*=======================================================================================================*/
+    /*FOOTER*/
+    /*=======================================================================================================*/
+    /*footer text*/
+    .footertext {
+        line-height: 25px;
+    }
+
+    /*adjust footer image*/
+    .footerIMG {
+        top: 6px;
+    }
+
+}
+
+/* 769 - 1024 */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+    /*Customized headding*/
+    header {
+        height: 70px;
+    }
+
+    /*set list inline*/
+    header > nav > ul {
+        margin-top: 10px;
+    }
+
+    /*set list inline*/
+    header > nav > ul > li {
+        padding: 16px;
+        padding-left: 6px;
+    }
+
+    /*name logo*/
+    .logo {
+        margin-top: 6px;
+    }
+
+    /*//////////////////////////////////////////////////////////*/
+    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .T1, .T2, .T3, .T4, .T5, .T6 {
+        line-height: 61px;
+        top: 13px;
+
+    }
+
+    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
+        top: -44px;
+    }
+
+    /*////////////////////////////////////////////////////////////////////////////////////////*/
+    /*hii, I am....*/
+    .intro1 {
+        margin-top: -34px;
+    }
+
+    .intro2 {
+        font-size: 58px;
+    }
+
+    /*Follow me on*/
+    .followMe {
+        font-size: 14px;
+        margin-right: 14px;
+        margin-top: -30px;
+    }
+
+    /*line*/
+    .follDiv {
+        margin-right: 7px;
+        margin-bottom: -72px;
+        width: 68px;
+    }
+
+    /*Button Hire me*/
+    .hireme {
+        width: 146px;
+        margin: auto;
+        margin-top: -34px;
+
+    }
+
+    .hireme:hover {
+        height: 43px;
+        transform: translateY(3px);
+    }
+
+    /*image*/
+    .imgp1 {
+        margin-bottom: -28px;
+        margin-right: 1px;
+    }
+
+    /*social media image*/
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*//////////////////////////////////////////////////////////*/
+    /*
+    ABOUT ME
+    */
+    /*Hello*/
+    .hello {
+        margin-right: -222px;
+        margin-top: -52px;
+    }
+
+    /*I AM.....*/
+    .name {
+        margin-right: -217px;
+        margin-top: -54px;
+    }
+
+    /*About me Paragraph*/
+    .AboutP {
+        margin-right: -222px;
+        margin-top: -69px;
+    }
+
+    /*About me Signature*/
+    .Signature {
+        margin-top: -81px;
+        margin-right: -93px;
+    }
+
+    /*Button downlod CV*/
+    .dwnlod {
+        margin-right: 589px;
+        margin-top: 526px;
+    }
+
+    /*about list*/
+    .list1 {
+        margin-right: -220px;
+        top: 301px;
+    }
+
+    /*details list*/
+    .list2 {
+        margin-right: -220px;
+        top: 301px;
+    }
+
+    /*image frame*/
+    .myIMGFrame {
+        margin-left: -112px;
+        margin-top: -58px;
+        width: 314px;
+        height: 431px;
+    }
+
+    .imgmy {
+        width: 286px;
+        height: 407px;
+        left: 14px;
+        top: 12px;
+    }
+
+    /*=======================================================================================================*/
+    /*SERVICE SECTION*/
+    /*=======================================================================================================*/
+    /*web design box*/
+    .webDesign {
+        margin-left: -126px;
+        top: 90px;
+        height: 283px;
+    }
+
+    /*Customization box*/
+    .customiz {
+        margin-right: -126px;
+        top: 90px;
+        height: 283px;
+    }
+
+    /*WebDevelopment box*/
+    .webDevelopment {
+        top: 226px;
+        margin-left: -192px;
+        height: 283px;
+    }
+
+    /*UI/UX Deesign box*/
+    .UIUX {
+        top: 226px;
+        margin-right: -192px;
+        height: 283px;
+    }
+
+    /*Mobile app development box*/
+    .mobileApp {
+        top: 366px;
+    }
+}
